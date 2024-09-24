@@ -7,6 +7,8 @@ This repository consists of the work for the Application Project Sprottenflotte.
   Do not change the Master_Document.ipynb without team agreement!
 </div>
 
+
+
 Structure:
 
 ```
@@ -60,7 +62,7 @@ conda init
 
 ### 3. Install packages from requirements.txt
 
-Install packages in environment ai_test_suite:
+Install packages in environment:
 
 ```
 pip install -r requirements.txt
