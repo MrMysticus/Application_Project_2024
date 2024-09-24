@@ -2,8 +2,8 @@
 
 This repository consists of the work for the Application Project Sprottenflotte.
 
-<div style="border: 2px solid red; "background-color: #ffcccb;  padding: 10px; border-radius: 5px;">
-  <strong>⚠️ Warnung:</strong> 
+<div style="border: 2px solid red; padding: 10px; border-radius: 5px;">
+  <strong>⚠️ Warning:</strong> 
   Do not change the Master_Document.ipynb without team agreement!
 </div>
 
