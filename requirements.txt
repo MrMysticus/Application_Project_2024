@@ -1,0 +1,12 @@
+# Requirements for environment for using Application_Project_2024
+
+ipykernel==6.29.5
+matplotlib==3.8
+numpy==1.26
+pandas #==2.1
+python-dotenv==0.21
+requests==2.31
+scipy
+seaborn==0.13.0
+
+# pip install -r .\requirements.txt

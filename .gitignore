@@ -1,0 +1,15 @@
+#
+# .gitignore
+#
+
+# Ignore Sublime Text files.
+*.sublime-workspace
+
+# Ignore environment file
+.env
+
+# Ignore virtual environment files
+.venv
+
+# Ignore Python Cache directory
+__pycache__
