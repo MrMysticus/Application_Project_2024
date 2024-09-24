@@ -51,7 +51,7 @@ Make a new virtual .venv environment with python version 3.12 or an conda enviro
 Create a new Conda environment for this project with a specific version of Python:
 
 ```
-conda create --name c4_data_science python=3.12
+conda create --name application_project_2024 python=3.12
 ```
 
 Initialize Conda for shell interaction:
