@@ -13,3 +13,6 @@
 
 # Ignore Python Cache directory
 __pycache__
+
+# Ignore cache folder
+cache/
