@@ -1,8 +1,10 @@
 # Requirements for environment for using Application_Project_2024
 
+geopandas
 ipykernel==6.29.5
 matplotlib==3.8
 numpy==1.26
+osmnx
 pandas #==2.1
 python-dotenv==0.21
 requests==2.31
