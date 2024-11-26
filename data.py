@@ -233,11 +233,15 @@ def update_and_save_station_data(DATA_FILENAME, STATION_IDS, START_DATE, END_DAT
         if not missing_dates.empty:
             request_start_date = missing_dates[0]
             # und requeste die nicht vorhandenen stunden bis zum END_DATE
-            data = fetch_station_data(station_id, request_start_date, END_DATE, BASE_URL, ACCESS_TOKEN)
-            if data:
-                df = create_dataframe_from_api_data(data)
-                # und appende sie an das dataframe
-                dataframes.append(df)
+            try:
+                data = fetch_station_data(station_id, request_start_date, END_DATE, BASE_URL, ACCESS_TOKEN)
+                if data:
+                    df = create_dataframe_from_api_data(data)
+                    # und appende sie an das dataframe
+                    dataframes.append(df)
+            except Exception as e:
+                print(f'There was a problem retrieving the data for station {station_id}.')
+                print(f'Error: {e}')
 
     if dataframes:
         # Alle neuen DataFrames der Stationen zusammenführen
