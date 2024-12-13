@@ -8,10 +8,11 @@ osmnx
 pandas #==2.1
 python-dotenv==0.21
 requests==2.31
-scikit-learn == 1.3.1
+scikit-learn == 1.5.2
 scipy
 seaborn==0.13.0
 statsmodels
+openpyxl
 
 # pip install -r .\requirements.txt
 

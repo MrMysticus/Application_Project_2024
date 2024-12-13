@@ -2,3 +2,4 @@ entityId,station_name,maximum_capacity,longitude,latitude,subarea
 24370,StationA,100,8.6821,50.1109,North
 24397,StationB,200,6.9603,50.9375,South
 24367,StationC,150,9.1829,48.7758,West
+24399,D,15,9.0,50.0,West
