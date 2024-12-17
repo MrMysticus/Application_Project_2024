@@ -2,35 +2,35 @@
 
 This repository consists of the work for the Application Project Sprottenflotte.
 
-<div style="border: 2px solid red; padding: 10px; border-radius: 5px;">
-  <strong>⚠️ Warning:</strong> 
-  Do not change the Master_Document.ipynb without team agreement!
-</div>
-
-
-
----
-
-Structure:
+## Structure:
 
 ```
 Data
-└──
+ ├── 				- Folder for data files
+ └── 
 Informations
-└──
-Master_Document.ipynb
-requirements.txt
+ ├── 				- Folder for general Informations
+ └── 
+Model_training
+ ├── model_training_rf.pth	- Notebook for Random Forest model training
+ ├── model_rf.joblib		- Serialized Random Forest model for making predictions
+ ├── scaler_rf.joblib		- Scaler for Random Forest data used in predictions
+Results
+ ├── 				- Folder for results and diagrams
+ └── 
+
+app_functions.py		- Collection of helper functions for data manipulation and UI functions
+app.py				- Main application script to launch the Streamlit app
+data.py				- Manages data fetching from external APIs and synchronization with GitHub
+predictions_dl.py		- Manages deep learning model predictions
+predictions_rf.py		- Manages random forest model predictions
+
+AUTHORS				- Lists the contributors to the repository
+poetry.lock			- Contains the exact versions of all dependencies used in the project to ensure consistency across different environments
+pyproject.toml			- Specifies the project metadata and dependencies. Functions as a configuration file for the Poetry dependency manager
 README.md
+.gitignore
 ```
-
-## Git commands
-
-- `git status`
-- `git add —all`
-- `git add <filename>`
-- `git commit -am "..."`
-- `git push`
-- `git pull`
 
 ## Create a .env file
 
@@ -48,7 +48,7 @@ PASSWORD="*************"
 CLIENT_SECRET="fP81XZ5OTt5iRJ7qhyyTCv4eQtpGqc5i"
 
 # access token
-ACCESS_TOKEN='eyJhbGcxN6MIceG82CRo73uugB4gCbbKgofF3UFJLeFcILi0vPV46Og'
+ACCESS_TOKEN='eyJhbGcxN6MIceG82CRoi0vPV46Og'
 
 ```
 
