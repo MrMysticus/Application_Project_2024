@@ -1,6 +1,6 @@
 # Application Project Sprottenflotte
 
-This repository consists of the work for the Application Project Sprottenflotte.
+This repository consists of the work and testing for the Application Project Sprottenflotte.
 
 ## Structure:
 
@@ -19,17 +19,18 @@ Results
  ├── 				- Folder for results and diagrams
  └── 
 
-app_functions.py		- Collection of helper functions for data manipulation and UI functions
-app.py				- Main application script to launch the Streamlit app
-data.py				- Manages data fetching from external APIs and synchronization with GitHub
-predictions_dl.py		- Manages deep learning model predictions
-predictions_rf.py		- Manages random forest model predictions
+Felix_API_test.ipynb			- d?
+Felix_API_weather_demo.ipynb		- d?
+historical_weather_data_V2.ipynb	- get weather data from addix
+investigate.ipynb			- data investigation
+Justus_Document.ipynb			- notebook for testing
+mads_dl.py				- functions from deep learning course
+paul_work.ipynb				- notebook for testing
+recent_wetter.ipynb			- get recent weather data from DWD
+SARIMA_ARIMA_test.ipynb			- model testing of Sarima and Arima
+wetter.ipynb				- get forcasted weather data from DWD
 
-AUTHORS				- Lists the contributors to the repository
-poetry.lock			- Contains the exact versions of all dependencies used in the project to ensure consistency across different environments
-pyproject.toml			- Specifies the project metadata and dependencies. Functions as a configuration file for the Poetry dependency manager
-README.md
-.gitignore
+requirements.txt		- requirement file
 ```
 
 ## Create a .env file
